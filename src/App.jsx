@@ -2,14 +2,18 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import Header from './Header.jsx';
-import Home from './pages/home/home.jsx';
+import Detail from './Detail.jsx';
+import Home from './Home.jsx';
+import Footer from './Footer.jsx';
 
 const App = () => {
   return (
-    <div className="container">
-      <Header />
-      <Home />
-      <div className="container-view">Some activities should be hereaaaa</div>
+    <div>
+      <div className="container">
+        <Header />
+        <Home />
+      </div>
+      <Footer />
     </div>
   );
 };
