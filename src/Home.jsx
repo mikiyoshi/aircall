@@ -13,7 +13,7 @@ export default function Home() {
     });
   }, []);
 
-  console.log('feeds XXXXXXXX: ', feeds);
+  console.log('feeds: ', feeds);
 
   if (!feeds) return null;
   // const [feeds, setFeed] = useState(0);
